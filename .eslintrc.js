@@ -20,12 +20,10 @@ module.exports = {
     },
     sourceType: "module"
   },
-  plugins: ["react", "react-hooks"],
+  plugins: ["react"],
   rules: {
     "react/prop-types": ["off"],
     "react/no-unescaped-entities": ["error", { forbid: [">", "}"] }],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
     indent: ["error", 2, { SwitchCase: 1 }],
     "comma-dangle": ["error", "never"],
     quotes: ["error", "double"],
